@@ -16,6 +16,22 @@ Adam Pines
 ### Collaborators 
 Adam R. Pines, Hongming Li, Tyler M. Moore, Azeez Adebimpe, Jacob W. Vogel, Sheila Shanmugan, Bart Larsen, Max Bertolero, Cedric H. Xia, Raquel E. Gur, Ruben C. Gur, Desmond J. Oathes, Aaron F. Alexander-Bloch, Michael P. Milham, Giovanni A. Salum, Monica E. Calkins, David R. Roalf, Russell T. Shinohara, Daniel H. Wolf, Christos Davatzikos, Danielle S. Bassett, Damien A. Fair, Yong Fan, and Theodore D. Satterthwaite
 
+### Current Project Status
+In preparation.
+
+### Datasets
+PNC dataset.
+
+### Github Repository
+<https://github.com/PennLINC/pncsinglefuncparcel_psychopathology>
+
+### Path to Data on Filesystem 
+/data/jux/BBL/projects/sydnor_glucest/GluCEST_BASReward_Project
+
+
+
+
+
 
 
 Run the codes according to the order:
