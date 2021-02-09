@@ -28,7 +28,6 @@ PNC dataset:<https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_i
 ### Path to Data on Filesystem 
 /cbica/projects/pncSingleFuncParcel/pncSingleFuncParcel_psycho
 
-
 <br>
 <br>
 # CODE DOCUMENTATION
