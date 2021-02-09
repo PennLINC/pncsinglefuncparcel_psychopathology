@@ -26,7 +26,7 @@ PNC dataset.
 <https://github.com/PennLINC/pncsinglefuncparcel_psychopathology>
 
 ### Path to Data on Filesystem 
-/data/jux/BBL/projects/sydnor_glucest/GluCEST_BASReward_Project
+/cbica/projects/pncSingleFuncParcel/pncSingleFuncParcel_psycho
 
 
 
