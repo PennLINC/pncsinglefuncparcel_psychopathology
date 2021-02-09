@@ -44,18 +44,6 @@ The steps below detail how to replicate all aspects of this project, from neuroi
 3. Run [/Processing_Pipeline/GluCEST_Processing_Pipeline.sh](https://github.com/PennLINC/sydnor_glucest_rewardresponsiveness_2020/blob/master/Processing_Pipeline/GluCEST_Processing_Pipeline.sh) to process the 7T Terra GluCEST data output by cest2d_TERRA_SYRP.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 Run the codes according to the order:
 Step_1st_PrepareData:
 Selecting our sample (i.e., 693 subjects).
