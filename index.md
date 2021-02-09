@@ -20,7 +20,7 @@ Adam R. Pines, Hongming Li, Tyler M. Moore, Azeez Adebimpe, Jacob W. Vogel, Shei
 In preparation.
 
 ### Datasets
-PNC dataset.
+PNC dataset:<https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000607.v3.p2>
 
 ### Github Repository
 <https://github.com/PennLINC/pncsinglefuncparcel_psychopathology>
