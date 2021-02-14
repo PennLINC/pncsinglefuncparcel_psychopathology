@@ -35,6 +35,7 @@ The steps below detail how to replicate all aspects of this project, from neuroi
 
 ### Step_1st_PrepareData
 1. Step_1st_SubjectFilter.R
+<br>
    Selecting our sample (i.e., 790 subjects)
    > Inclusion criteria: healthExcludev2 = 0; fsFinalExclude = 0; restExclude = 0; restExcludeVoxelwise = 0; nbackFcExclude = 0; nbackFcExcludeVoxelwise = 0; idemoFcExclude = 0; idemoFcExcludeVoxelwise = 0. Finally, a sample of 790 subjects was created.
 
