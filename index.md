@@ -98,15 +98,15 @@ Prediction of overall psychopathology factor using personalized functional topog
 ### Step_7th_PLSca
 Relate the functional topography and item-level psychopathology symptoms using partial least square correlation.
 1. Step_1st_PLSCorr.py:
-   > Relate functional topography and item-level psychopathology symptoms using partial least square correlation. Repeated (i.e., 101 times) 2F-CV was used and a permutation testing was used to generate the distribution of accuries at chance level.
+   > Use partial least square correlation to decompose paris of components that maximizing the covariance between functional topography and item-level psychopathology symptoms. Repeated (i.e., 101 times) 2F-CV was used and a permutation testing was used to generate the distribution of out-of-sample correlations at chance level.
+2. Step_2nd_PLSca_Sig.m:
+   > Extract the PLSC results and calculate the P value of the out-of-sample correlation between pairs of components. 
 2. Step_3rd_CovarianceExplained.R:
-   > Calculate the median covariance explained by each component across the 101 times. 
+   > Calculate the median covariance explained by each component across the 101 repetitions. 
 3. Step_5th_Scatter_PLSca.R:
    > The scatter plot of the correlation between the first pair of components. 
-4. Step_2nd_PLSca_Sig.m:
-   > Calculate the P value of the out-of-sample correlation between pairs of components. 
 5. Step_4th_Prediction_RandomCV_All_Violin.R:
-   > The plot of the distribution of correlation between first pair of components from permutation testing. 
+   > The plot of the distribution of correlations between first pair of components from permutation testing. 
 6. Step_6th_BehaviorBrainFeatures_Update.m:
    > 
 7. Step_7th_BrainFeatures.m:
