@@ -79,11 +79,11 @@ Step1 to step4 are codes for single functional parcellation (Li et al., 2017, Ne
 Prediction of the four correlated dimensions of psychopathology using personalized functional topography.
 1. Step_1st_Prediction_Fear_RandomCV.py, Step_1st_Prediction_Psychosis_RandomCV.py, Step_1st_Prediction_Externalizing_RandomCV.py, Step_1st_Prediction_Mood_RandomCV.py:
    > Predicting factor scores of fear, psychosis, externalizing and mood/anxious-misery dimensions using networks loading features acquired in Step 4th. Repeated (i.e., 101 times) two-fold cross validation (2F-CV) was used here. Partial least square regression was used to predict the behavior. We applied permutation testing (i.e., 1,000 times) to evaluate the significance of the prediction accuracy.
-2. Step_3rd_Scatter_Fear.R, Step_3rd_Scatter_Psychosis.R, Step_3rd_Scatter_Externalizing.R, Step_3rd_Scatter_Mood.R:
+2. Step_2nd_Scatter_Fear.R, Step_2nd_Scatter_Psychosis.R, Step_2nd_Scatter_Externalizing.R, Step_2nd_Scatter_Mood.R:
    > Ploting the scatter plot of the correlation between actual and predicted scores of the prediction of the four correlated dimensions of psychopathology. The 2F-CV was repeated 101 times and we reported the one with the median prediction accuracy.
-3. Step_4th_Sig.m:
+3. Step_3rd_Sig.m:
    > Calculating the P value of the prediction accuracy based on the distribution from the permutation testing.
-4. Step_2nd_Prediction_RandomCV_All_Violin.R:
+4. Step_4th_Prediction_RandomCV_All_Violin.R:
    > Ploting the actual prediction accuracy (i.e., correlation r between actual and predicted scores) and boxplot/violin plot of the permutation distribution.
 5. Step_5th_Weight_Visualize_Workbench_Fear_RandomCV.m, Step_5th_Weight_Visualize_Workbench_Psychosis_RandomCV.m, Step_5th_Weight_Visualize_Workbench_Externalizing_RandomCV.m, Step_5th_Weight_Visualize_Workbench_Mood_RandomCV.m:
    > Visualizing the contribution pattern using workbench.
