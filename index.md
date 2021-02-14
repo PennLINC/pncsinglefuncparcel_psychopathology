@@ -104,8 +104,11 @@ Relate the functional topography and item-level psychopathology symptoms using p
 3. Step_3rd_CovarianceExplained.R:
    > Calculate the median covariance explained by each component across the 101 times. 
 4. Step_4th_Prediction_RandomCV_All_Violin.R:
+   > The plot of the distribution of correlation between first pair of components from permutation testing. 
 5. Step_5th_Scatter_PLSca.R:
+   > The scatter plot of the correlation between the first pair of components. 
 6. Step_6th_BehaviorBrainFeatures_Update.m:
+   > 
 7. Step_7th_BrainFeatures.m:
 8. Step_8th_SumofWeights_PLSca.R:
 
