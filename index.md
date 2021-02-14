@@ -32,8 +32,6 @@ PNC dataset:<https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_i
 # CODE DOCUMENTATION
 The steps below detail how to replicate all aspects of this project, from neuroimage processing to statistical anlysis and figure generation.
 
-<br>
-
 ### Step_1st_PrepareData
 1. Step_1st_SubjectFilter.R: Selecting our sample (i.e., 790 subjects)
    > Inclusion criteria: healthExcludev2 = 0; fsFinalExclude = 0; restExclude = 0; restExcludeVoxelwise = 0; nbackFcExclude = 0; nbackFcExcludeVoxelwise = 0; idemoFcExclude = 0; idemoFcExcludeVoxelwise = 0. Finally, a sample of 790 subjects was created.
@@ -47,7 +45,6 @@ The steps below detail how to replicate all aspects of this project, from neuroi
    > Plot figures for exploratory factor analysis (Figure 2) and confirmatory factor analysis (Figure 5)
 6. Step_9th_Prevelance.R: 
    > Calculating the prevelance of disorders.
-
 <br>
 
 ### Step_2nd_SingleParcellation
@@ -73,7 +70,6 @@ Step1 to step4 are codes for single functional parcellation (Li et al., 2017, Ne
    > Visualizing the atlas variability map using workbench
 10. Step_10th_ViolinPlot_AtlasVariability_Loading.R:
    > Visualizing the variability of each network using violin plot.
-
 <br>
 
 ### Step_3rd_Psychopathology_SaveMat.R
