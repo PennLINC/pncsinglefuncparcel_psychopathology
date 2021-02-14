@@ -78,7 +78,11 @@ Step1 to step4 are codes for single functional parcellation (Li et al., 2017, Ne
    > For each participant, extracting all the loadings of the 17 networks to be a high-dimensional feature vector. 
    
 ### Step_5th_PLSr1_Corrtraits
-1. 
+1. Step_1st_Prediction_Fear_RandomCV.py, Step_1st_Prediction_Psychosis_RandomCV.py, Step_1st_Prediction_Externalizing_RandomCV.py, Step_1st_Prediction_Mood_RandomCV.py:
+   > Predicting factor scores of fear, psychosis, externalizing and mood/anxious-misery dimensions using networks loading features acquired in Step 4th. Repeated (i.e., 101 times) two-fold cross validation was used here. Partial least square regression was used to predict the behavior. We applied permutation testing (i.e., 1,000 times) to evaluate the significance of the prediction accuracy.
+2. Step_2nd_Prediction_RandomCV_All_Violin.R:
+   > Plot the actual prediction accuracy (i.e., correlation r between actual and predicted scores) and boxplot/violin plot of the permutation distribution.
+3. 
    
    
 
