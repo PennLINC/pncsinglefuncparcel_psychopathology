@@ -53,11 +53,18 @@ Step1 to step4 are codes for single functional parcellation (Li et al., 2017, Ne
 4. Step_4th_IndividualParcel.m:
    > Based on the acquired group atlas and the subject's specific fMRI data, we calculated the atlas for this specific subject. Finally, each subject had a loading matrix, in which the loading value quantifies the probability each vertex belonging to each network.
 5. Step_5th_AtlasInformation_Extract.m:
+   > Extract all subjects' loading matrix information into the same folder.
+   > Also, extracting the discrete atlas for each subject by categorizing each vertex to the network with the highest loading, and put them into the same folder.
 6. Step_6th_GroupAtlas_Extract.m:
+   > Extracting loading matrix group atlas (the output of the script 'Step_3rd_SelRobustInit.m') and create the group discrete atlas by categorizing each vertex to the network with the highest loading.
 7. Step_7th_NetworkNaming_Yeo.m:
+   > Calculating the overlap between our networks with Yeo atlas.
 8. Step_8th_Visualize_Workbench_Atlas.m:
+   > Calculating inter-subjects variability of loadings according to the formula: MADM=median(|x(i) - median(x)|). Calculating the average of 17 variability brain map.
 9. Step_9th_Visualize_Workbench_AtlasVariability.m:
+   > Visualizing the atlas variability map using workbench
 10. Step_10th_ViolinPlot_AtlasVariability_Loading.R:
+   > Visualizing the variability of each network using violin plot.
 
 Generate B0 maps, B1 maps, and B0- and B1-corrected GluCEST maps with the Matlab Program cest2d_TERRA_SYRP (in-house software).
 <br>
