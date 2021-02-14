@@ -96,13 +96,16 @@ Prediction of the four correlated dimensions of psychopathology using personaliz
 Prediction of overall psychopathology factor using personalized functional topography. The computations from step1 to step 6 are the same with the above. 
 
 ### Step_7th_PLSca
+Relate the functional topography and item-level psychopathology symptoms using partial least square correlation.
 1. Step_1st_PLSCorr.py:
+   > Relate functional topography and item-level psychopathology symptoms using partial least square correlation. Repeated (i.e., 101 times) 2F-CV was used and a permutation testing was used to generate the distribution of accuries at chance level.
 2. Step_2nd_PLSca_Sig.m:
+   > Calculate the P value of the out-of-sample correlation between pairs of components. 
 3. Step_3rd_CovarianceExplained.R:
+   > Calculate the median covariance explained by each component across the 101 times. 
 4. Step_4th_Prediction_RandomCV_All_Violin.R:
 5. Step_5th_Scatter_PLSca.R:
 6. Step_6th_BehaviorBrainFeatures_Update.m:
 7. Step_7th_BrainFeatures.m:
 8. Step_8th_SumofWeights_PLSca.R:
-
 
