@@ -46,6 +46,7 @@ The steps below detail how to replicate all aspects of this project, from neuroi
 6. Step_9th_Prevelance.R: 
    > Calculating the prevelance of disorders.
 
+<br>
 ### Step_2nd_SingleParcellation
 Step1 to step4 are codes for single functional parcellation (Li et al., 2017, NeuroImage). See (https://github.com/hmlicas/Collaborative_Brain_Decomposition) for the toolbox of single parcellation.
 1. Step_1st_CreatePrepData.m: 
