@@ -58,8 +58,7 @@ Step1 to step4 are codes for single functional parcellation (Li et al., 2017, Ne
 4. Step_4th_IndividualParcel.m:
    > Based on the acquired group atlas and the subject's specific fMRI data, we calculated the atlas for this specific subject. Finally, each subject had a loading matrix, in which the loading value quantifies the probability each vertex belonging to each network.
 5. Step_5th_AtlasInformation_Extract.m:
-   > Extract all subjects' loading matrix information into the same folder.
-   > Also, extracting the discrete atlas for each subject by categorizing each vertex to the network with the highest loading, and put them into the same folder.
+   > Extract all subjects' loading matrix information into the same folder. Also, extracting the discrete atlas for each subject by categorizing each vertex to the network with the highest loading, and put them into the same folder.
 6. Step_6th_GroupAtlas_Extract.m:
    > Extracting loading matrix group atlas (the output of the script 'Step_3rd_SelRobustInit.m') and create the group discrete atlas by categorizing each vertex to the network with the highest loading.
 7. Step_7th_NetworkNaming_Yeo.m:
@@ -73,4 +72,13 @@ Step1 to step4 are codes for single functional parcellation (Li et al., 2017, Ne
 <br>
 
 ### Step_3rd_Psychopathology_SaveMat.R
+   > Saving age, sex, motion, four correlated dimensions of psychopathology, five bifactors of psychopathology, and 112 item-level psychopathology symptoms to .mat file.
+   
+### Step_4th_AtlasFeature_SaveMat.m
+   > For each participant, extracting all the loadings of the 17 networks to be a high-dimensional feature vector. 
+   
+### Step_5th_PLSr1_Corrtraits
+1. 
+   
+   
 
