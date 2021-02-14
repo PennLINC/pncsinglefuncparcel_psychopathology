@@ -117,5 +117,7 @@ Relate the functional topography and item-level psychopathology symptoms using p
 ### Step_8th_PLSr1_OtherFactors
 Prediction of other specific orthogonal factors from bifactor model, including fear, psychosis, externalizing, mood/anxious-misery factors. Results showed functional topography significantly predicted fear and psychosis factors, so futher visualized the results of these two factors. The computations from step 1 and step 6 are the same with the above. 
 
-   
+### Notes
+1. g_ls.m is a funtion that will be used in the Maltab scripts here. PSOM (http://psom.simexp-lab.org/) is used for parallelization. Both g_ls.m and PSOM can also be found in our previous software PANDA (https://github.com/ZaixuCui/PANDA; https://www.nitrc.org/projects/panda).
+2. The functions folder include the functions of fMRI data projection to surface, modalities merge, PLS regression and PLS correlation.
 
