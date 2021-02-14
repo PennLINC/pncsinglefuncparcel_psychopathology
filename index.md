@@ -28,10 +28,8 @@ PNC dataset:<https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_i
 /cbica/projects/pncSingleFuncParcel/pncSingleFuncParcel_psycho
 
 <br>
-<br>
 
 # CODE DOCUMENTATION
-
 The steps below detail how to replicate all aspects of this project, from neuroimage processing to statistical anlysis and figure generation.
 
 ### Step_1st_PrepareData
