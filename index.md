@@ -95,7 +95,8 @@ Prediction of the four correlated dimensions of psychopathology using personaliz
    > Calculating the correlation between the sum of weights and the median network variability, and then visualizing using scatter plot.
    
 ### Step_6th_PLSr1_OverallPsyFactor
-
+Prediction of overall psychopathology factor using personalized functional topography.
+1. Step_1st_Prediction_OverallPsyFactor_RandomCV.py
 
 
    
