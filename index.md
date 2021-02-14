@@ -45,6 +45,15 @@ The steps below detail how to replicate all aspects of this project, from neuroi
 ### Step_2nd_SingleParcellation
 Step1 to step4 are codes for single functional parcellation (Li et al., 2017, NeuroImage). See (https://github.com/hmlicas/Collaborative_Brain_Decomposition) for the codes of single parcellation.
 1. Step_1st_CreatePrepData.m: 
+2. Step_2nd_ParcellationInitialize.m:
+3. Step_3rd_SelRobustInit.m:
+4. Step_4th_IndividualParcel.m:
+5. Step_5th_AtlasInformation_Extract.m:
+6. Step_6th_GroupAtlas_Extract.m:
+7. Step_7th_NetworkNaming_Yeo.m:
+8. Step_8th_Visualize_Workbench_Atlas.m:
+9. Step_9th_Visualize_Workbench_AtlasVariability.m:
+10. Step_10th_ViolinPlot_AtlasVariability_Loading.R:
 
 Generate B0 maps, B1 maps, and B0- and B1-corrected GluCEST maps with the Matlab Program cest2d_TERRA_SYRP (in-house software).
 <br>
