@@ -33,19 +33,18 @@ PNC dataset:<https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_i
 The steps below detail how to replicate all aspects of this project, from neuroimage processing to statistical anlysis and figure generation.
 
 ### Step_1st_PrepareData
-1. Step_1st_SubjectFilter.R: Selecting our sample (i.e., 790 subjects)
-   > Inclusion criteria: healthExcludev2 = 0; fsFinalExclude = 0; restExclude = 0; restExcludeVoxelwise = 0; nbackFcExclude = 0; nbackFcExcludeVoxelwise = 0; idemoFcExclude = 0; idemoFcExcludeVoxelwise = 0. Finally, a sample of 790 subjects was created.
+1. Step_1st_SubjectFilter.R: 
+   > Selecting our sample (i.e., 790 subjects). Inclusion criteria: healthExcludev2 = 0; fsFinalExclude = 0; restExclude = 0; restExcludeVoxelwise = 0; nbackFcExclude = 0; nbackFcExcludeVoxelwise = 0; idemoFcExclude = 0; idemoFcExcludeVoxelwise = 0. Finally, a sample of 790 subjects was created.
 2. Step_2nd_ExtractBehavior.R
-   > Extracting correlated dimensions, bifactors, and item-level symptom of psychopathology
+   > Extracting correlated dimensions, bifactors, and item-level symptom of psychopathology.
 3. Step_3rd_CopyStructFSFiles.R, Step_4th_DataFSProcessing.m, Step_5th_MergeModalities.m: 
-   > Projecting fmri data into surface and then combine the three modalities
+   > Projecting fmri data into surface and then combine the three modalities.
 4. Step_6th_tSNRMask*: 
-   > Generating the tSNR mask
+   > Generating the tSNR mask.
 5. Step_7th_EFA.R, Step_8th_CFA: 
-   > Plot figures for exploratory factor analysis (Figure 2) and confirmatory factor analysis (Figure 5)
+   > Plot figures for exploratory factor analysis (Figure 2) and confirmatory factor analysis (Figure 5).
 6. Step_9th_Prevelance.R: 
    > Calculating the prevelance of disorders.
-<br>
 
 ### Step_2nd_SingleParcellation
 Step1 to step4 are codes for single functional parcellation (Li et al., 2017, NeuroImage). See (https://github.com/hmlicas/Collaborative_Brain_Decomposition) for the toolbox of single parcellation.
@@ -66,10 +65,9 @@ Step1 to step4 are codes for single functional parcellation (Li et al., 2017, Ne
 8. Step_8th_Visualize_Workbench_Atlas.m:
    > Calculating inter-subjects variability of loadings according to the formula: MADM=median(|x(i) - median(x)|). Calculating the average of 17 variability brain map.
 9. Step_9th_Visualize_Workbench_AtlasVariability.m:
-   > Visualizing the atlas variability map using workbench
+   > Visualizing the atlas variability map using workbench.
 10. Step_10th_ViolinPlot_AtlasVariability_Loading.R:
    > Visualizing the variability of each network using violin plot.
-<br>
 
 ### Step_3rd_Psychopathology_SaveMat.R
    > Saving age, sex, motion, four correlated dimensions of psychopathology, five bifactors of psychopathology, and 112 item-level psychopathology symptoms to .mat file.
@@ -98,13 +96,13 @@ Prediction of the four correlated dimensions of psychopathology using personaliz
 Prediction of overall psychopathology factor using personalized functional topography. The computations from step1 to step 6 are the same with the above. 
 
 ### Step_7th_PLSca
+1. Step_1st_PLSCorr.py:
+2. Step_2nd_PLSca_Sig.m:
+3. Step_3rd_CovarianceExplained.R:
+4. Step_4th_Prediction_RandomCV_All_Violin.R:
+5. Step_5th_Scatter_PLSca.R:
+6. Step_6th_BehaviorBrainFeatures_Update.m:
+7. Step_7th_BrainFeatures.m:
+8. Step_8th_SumofWeights_PLSca.R:
 
-
-
-
-   
-
-
-   
-   
 
