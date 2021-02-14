@@ -108,7 +108,10 @@ Relate the functional topography and item-level psychopathology symptoms using p
 5. Step_4th_Prediction_RandomCV_All_Violin.R:
    > The plot of the distribution of correlations between first pair of components from permutation testing. 
 6. Step_6th_BehaviorBrainFeatures_Update.m:
-   > 
+   > Match the signs of weights across the 101 repetitions and calculate the P value of the contribution of each psychopathology item to the first component. 
 7. Step_7th_BrainFeatures.m:
+   > Visualize the contribution pattern of functional topography features to the first component. 
 8. Step_8th_SumofWeights_PLSca.R:
+   > Sum the contribution weights of each network and visualize using bar graph.
+   
 
