@@ -45,8 +45,11 @@ The steps below detail how to replicate all aspects of this project, from neuroi
 ### Step_2nd_SingleParcellation
 Step1 to step4 are codes for single functional parcellation (Li et al., 2017, NeuroImage). See (https://github.com/hmlicas/Collaborative_Brain_Decomposition) for the codes of single parcellation.
 1. Step_1st_CreatePrepData.m: 
+   > Creating the spatial neighborhood for fsaverage5 surface space. After removing medial wall, we have 18715 vertices.
 2. Step_2nd_ParcellationInitialize.m:
+   > Calculating the group parcellation, which will be the initialization of single subject parcellation. We randomly chose 100 subjects and combined these subjects' data along time points and run non-negative matrix factorization (NMF) to decompose the whole brain into 17 networks. We repeated this procedure 50 times, finally 50 group atlas was acquired.
 3. Step_3rd_SelRobustInit.m:
+   
 4. Step_4th_IndividualParcel.m:
 5. Step_5th_AtlasInformation_Extract.m:
 6. Step_6th_GroupAtlas_Extract.m:
