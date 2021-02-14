@@ -34,10 +34,10 @@ PNC dataset:<https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_i
 The steps below detail how to replicate all aspects of this project, from neuroimage processing to statistical anlysis and figure generation.
 
 ### Step_1st_PrepareData
-1. Step_1st_SubjectFilter.R
-<br>
-   Selecting our sample (i.e., 790 subjects)
+1. Step_1st_SubjectFilter.R: Selecting our sample (i.e., 790 subjects)
    > Inclusion criteria: healthExcludev2 = 0; fsFinalExclude = 0; restExclude = 0; restExcludeVoxelwise = 0; nbackFcExclude = 0; nbackFcExcludeVoxelwise = 0; idemoFcExclude = 0; idemoFcExcludeVoxelwise = 0. Finally, a sample of 790 subjects was created.
+2. Step_2nd_ExtractBehavior.R: Extracting correlated dimensions, bifactors, and item-level symptom of psychopathology
+3. Step_3rd_CopyStructFSFiles.R, Step_4th_DataFSProcessing.m, Step_5th_MergeModalities.m: Projecting fmri data into surface and then combine the three modalities
 
 Generate B0 maps, B1 maps, and B0- and B1-corrected GluCEST maps with the Matlab Program cest2d_TERRA_SYRP (in-house software).
 <br>
