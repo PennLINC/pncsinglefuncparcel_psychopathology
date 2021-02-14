@@ -80,7 +80,7 @@ Step1 to step4 are codes for single functional parcellation (Li et al., 2017, Ne
 ### Step_5th_PLSr1_Corrtraits
 Prediction of the four correlated dimensions of psychopathology using personalized functional topography.
 1. Step_1st_Prediction_Fear_RandomCV.py, Step_1st_Prediction_Psychosis_RandomCV.py, Step_1st_Prediction_Externalizing_RandomCV.py, Step_1st_Prediction_Mood_RandomCV.py:
-   > Predicting factor scores of fear, psychosis, externalizing and mood/anxious-misery dimensions using networks loading features acquired in Step 4th. Repeated (i.e., 101 times) two-fold cross validation was used here. Partial least square regression was used to predict the behavior. We applied permutation testing (i.e., 1,000 times) to evaluate the significance of the prediction accuracy.
+   > Predicting factor scores of fear, psychosis, externalizing and mood/anxious-misery dimensions using networks loading features acquired in Step 4th. Repeated (i.e., 101 times) two-fold cross validation (2F-CV) was used here. Partial least square regression was used to predict the behavior. We applied permutation testing (i.e., 1,000 times) to evaluate the significance of the prediction accuracy.
 2. Step_2nd_Prediction_RandomCV_All_Violin.R:
    > Ploting the actual prediction accuracy (i.e., correlation r between actual and predicted scores) and boxplot/violin plot of the permutation distribution.
 3. Step_3rd_Scatter_Fear.R, Step_3rd_Scatter_Psychosis.R, Step_3rd_Scatter_Externalizing.R, Step_3rd_Scatter_Mood.R:
@@ -95,8 +95,14 @@ Prediction of the four correlated dimensions of psychopathology using personaliz
    > Calculating the correlation between the sum of weights and the median network variability, and then visualizing using scatter plot.
    
 ### Step_6th_PLSr1_OverallPsyFactor
-Prediction of overall psychopathology factor using personalized functional topography.
-1. Step_1st_Prediction_OverallPsyFactor_RandomCV.py
+Prediction of overall psychopathology factor using personalized functional topography. The computations from step1 to step 6 are the same with the above. 
+
+### Step_7th_PLSca
+
+
+
+
+   
 
 
    
