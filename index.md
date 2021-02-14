@@ -38,6 +38,9 @@ The steps below detail how to replicate all aspects of this project, from neuroi
    > Inclusion criteria: healthExcludev2 = 0; fsFinalExclude = 0; restExclude = 0; restExcludeVoxelwise = 0; nbackFcExclude = 0; nbackFcExcludeVoxelwise = 0; idemoFcExclude = 0; idemoFcExcludeVoxelwise = 0. Finally, a sample of 790 subjects was created.
 2. Step_2nd_ExtractBehavior.R: Extracting correlated dimensions, bifactors, and item-level symptom of psychopathology
 3. Step_3rd_CopyStructFSFiles.R, Step_4th_DataFSProcessing.m, Step_5th_MergeModalities.m: Projecting fmri data into surface and then combine the three modalities
+4. Step_6th_tSNRMask*: Generating the tSNR mask
+5. Step_7th_EFA.R, Step_8th_CFA: Plot figures for exploratory factor analysis (Figure 2) and confirmatory factor analysis (Figure 5)
+6. Step_9th_Prevelance.R: Calculating the prevelance of disorders.
 
 Generate B0 maps, B1 maps, and B0- and B1-corrected GluCEST maps with the Matlab Program cest2d_TERRA_SYRP (in-house software).
 <br>
