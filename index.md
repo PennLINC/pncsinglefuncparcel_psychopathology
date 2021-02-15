@@ -63,7 +63,7 @@ Step1 to step4 are codes for single functional parcellation (Li et al., 2017, Ne
 7. Step_7th_NetworkNaming_Yeo.m:
    > Calculate the overlap between our networks with Yeo atlas.
 8. Step_8th_Visualize_Workbench_Atlas.m:
-   > Calculate inter-subjects variability of loadings according to the formula: MADM=median(|x(i) - median(x)|). Calculating the average of 17 variability brain map.
+   > Calculate inter-subjects variability of network loadings for each network using median absolute deviation and then average the 17 brain maps of variability.
 9. Step_9th_Visualize_Workbench_AtlasVariability.m:
    > Visualize the atlas variability map using workbench.
 10. Step_10th_ViolinPlot_AtlasVariability_Loading.R:
