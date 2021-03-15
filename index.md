@@ -1,7 +1,7 @@
 
 # Linking Individual Differences in Personalized Functional Network Topography to Psychopathology in Youth
 
-Abstract: 
+Abstract: The spatial distribution of personalized large-scale functional networks on the association cortex develops in youth and is associated with executive function. However, it remains unknown if this personalized functional topography is related to the psychopathology. Capitalizing on a large sample imaged with 27 min of high-quality functional MRI data (n = 790, ages 8-23 years), we examined the relationship between personalized functional network topography and four correlated psychopathology dimensions as well as the overall psychopathology factor, which reflects a shared vulnerability to a broad range of symptoms across mental disorders. We found that the functional topography significantly predicted individual differences in overall psychopathology factor, which underlies the association between functional topography and correlated dimensions of psychopathology. Interestingly, there was a negative association between the total cortical representation of association networks and factor scores of psychopathology dimensions. Our results emphasize the importance of considering functional neuroanatomy for personalized therapeutics. ![image](https://user-images.githubusercontent.com/12640408/111113825-4e014d80-859d-11eb-88cf-6e963f913dfb.png)
 
 ### Project Lead
 Zaixu Cui
